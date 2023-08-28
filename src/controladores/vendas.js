@@ -1,3 +1,4 @@
+const instanciaAxios = require('../api');
 const pool = require('../conexao')
 
 const venda = async (req, res) => {
