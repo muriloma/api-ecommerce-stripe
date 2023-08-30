@@ -7,7 +7,6 @@ const instanciaAxios = axios.create({
     headers: {
         authorization: `Bearer ${process.env.API_KEY}`,
         'Content-type': 'application/x-www-form-urlencoded'
-
     }
 })
 
